@@ -72,3 +72,7 @@ PS C:\Users\HP\Documents\GitHub>
 
 It finally installed! Honestly shouldn't be this hard.
 Mac will be interesting.
+
+npm run build fails if you cd to the location but use wrong capitalization.
+
+'running scripts is disabled on this system' so can't run build.
