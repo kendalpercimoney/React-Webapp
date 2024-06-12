@@ -6,4 +6,69 @@ Tried to install using docker, but decided to leave it to the future.
 
 Installed using msi file, had to restart before it showed up in terminal
 
- npx create-react-app react-webapp --use-npm was supposed to do the trick, but threw error code enoent
+npx create-react-app react-webapp --use-npm was supposed to do the trick, but threw error code enoent
+
+----------------------------
+----------------------------
+PS C:\Users\HP\Documents\GitHub> npx create-react-app react-webapp --use-npm
+
+Creating a new React app in C:\Users\HP\Documents\GitHub\react-webapp.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1476 packages in 3m
+
+258 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...
+
+added 67 packages, and changed 1 package in 24s
+
+262 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1543 packages in 6s
+
+262 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created react-webapp at C:\Users\HP\Documents\GitHub\react-webapp      
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd react-webapp
+  npm start
+
+Happy hacking!
+PS C:\Users\HP\Documents\GitHub>
+----------------------------
+----------------------------
+
+It finally installed! Honestly shouldn't be this hard.
+Mac will be interesting.
