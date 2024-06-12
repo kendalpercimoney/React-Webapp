@@ -1,3 +1,9 @@
 docker pull node:20-alpine
 
 Used docker and plan on using it in the future with node js
+
+Tried to install using docker, but decided to leave it to the future. 
+
+Installed using msi file, had to restart before it showed up in terminal
+
+ npx create-react-app react-webapp --use-npm was supposed to do the trick, but threw error code enoent
