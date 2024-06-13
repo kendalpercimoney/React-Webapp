@@ -20,9 +20,10 @@ const content = [
     "React Native (build native mobile apps with React)"
   ],
   [
-    "This",
-    "Is my first",
-    "React Hello World!"
+    "Vanilla JavaScript requires imperative programming",
+    "Imperative Programming: You define all the steps needed to achieve a result",
+    "React on the other hand embraces declarative programming",
+    "With React, you define the goal and React figures out how to get there"
   ]
 ];
 
@@ -63,7 +64,7 @@ export default function App() {
             className={activeContentIndex === 3 ? "active" : ""}
             onClick={() => setActiveContentIndex(3)}
           >
-            3rd Category
+            React vs JS
           </button>
         </menu>
         <div id="tab-content">
