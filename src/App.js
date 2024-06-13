@@ -18,6 +18,11 @@ const content = [
     "Official web page (react.dev)",
     "Next.js (Fullstack framework)",
     "React Native (build native mobile apps with React)"
+  ],
+  [
+    "This",
+    "Is my first",
+    "React Hello World!"
   ]
 ];
 
@@ -53,6 +58,12 @@ export default function App() {
             onClick={() => setActiveContentIndex(2)}
           >
             Related Resources
+          </button>
+          <button
+            className={activeContentIndex === 3 ? "active" : ""}
+            onClick={() => setActiveContentIndex(3)}
+          >
+            3rd Category
           </button>
         </menu>
         <div id="tab-content">
