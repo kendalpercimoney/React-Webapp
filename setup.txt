@@ -78,3 +78,6 @@ npm run build fails if you cd to the location but use wrong capitalization.
 'serve -s build' starts the static server
 
 'running scripts is disabled on this system' so can't run build.
+
+--
+Node isn't preinstalled on mac with the things I have installed so far
