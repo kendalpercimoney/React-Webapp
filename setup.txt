@@ -86,3 +86,5 @@ Got it to work. Tried to brew install but didn't restart terminal so probably wh
 Followed text on node website to install using nvm (curl) to work. 
 
 > npm needed to be fixed with npm install. 
+
+> According to react course, vite should be used to install node.
