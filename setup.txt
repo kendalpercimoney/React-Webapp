@@ -88,3 +88,23 @@ Followed text on node website to install using nvm (curl) to work.
 > npm needed to be fixed with npm install. 
 
 > According to react course, vite should be used to install node.
+
+>>> npm create vite@latest react-project for using vite
+npm install needs to be used every time a project is created.
+
+npm run dev is used to start dev server.
+
+----
+
+npm install after opening project snapshot
+
+----
+
+JS is used in its own file for maintainability.
+
+type module and defer
+module and import /js attriute in html
+export from other js file
+
+react build process injects these script tags for you.^^
+
