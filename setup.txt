@@ -106,5 +106,65 @@ type module and defer
 module and import /js attriute in html
 export from other js file
 
-react build process injects these script tags for you.^^
+react build process injects these script tags for you.
+We don't add script tags.
+Package.js handles these
+----
+
+The build process optimizes the code for production (minification).
+Node JS is used for npm, setting up, and the build process
+
+In react, importing and exporting is used a lot, it's a best practice to split 
+code over multiple files for maintainability.
+
+JS variables use "let" for creation.
+the keyword export means that a variable is accessable outside of the file as well.
+You can then import it in the file you want to use it in.
+
+import { apikey } from "./util.js";
+
+in react, the .js extension is obmitted.
+needs a "type module" to use export and import in vanilla. not used in the build process for compatibility.
+
+console.log(); for logging to console
+
+export default "whateveritis"; << can only have one per file. No variable init or assign
+export let apikey = "whateveritis";
+----
+one component (js function) per file.
+exporting, importing multiple things:
+import { apikey, abc } from "./util.js";.
+
+You can also use all from a file (as an object) with 
+import * as util
+then
+console.log(util.abc);
+
+as can also be used to alias > import { apikey, abc as content } from "./util.js";.
+
+----------------
+Identifiers should follow certain rules: 
+- must not contain whitespace or special characters except $ and _
+- may contain numbers but not start with a number
+- must not clash with reserved keywords (user, const, if...)
+- should use camelCasing
+- should describe the thing it identifies, contains, or does.
+
+=== used to check equality
+
+functions: 
+function greet() {} //define
+greet(); //call
+
+create a default value that can be overwritten: 
+function greetUser(message = hello) {
+  console.log (message);
+} //define
+greetUser("hi"); //call
+
+you can return a string
+return message + "Samsung";
+
+console.log (greetUser("Hi there"))
+//to pull return from function. you can store it in a variable first for readability.
 
