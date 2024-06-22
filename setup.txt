@@ -260,3 +260,8 @@ hobbies.findIndex((item) => {   // will return location if found.
 can also be written like this: 
 
 hobbies.findIndex((item) => item === 'Sports');
+
+----------
+Map:
+
+Arrays are special types of objects
