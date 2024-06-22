@@ -168,3 +168,95 @@ return message + "Samsung";
 console.log (greetUser("Hi there"))
 //to pull return from function. you can store it in a variable first for readability.
 
+----
+
+Anonymous functions: 
+function types: 
+
+function () {
+  console.log('hello');
+}
+
+or 
+
+export default function () {
+  console.log('hello');
+}
+
+or 
+
+export default () => {
+  console.log('hello');
+}
+--
+Instead of 
+(number) => {
+  number * 3;
+}
+
+you can use 
+
+(number) => number * 3; // return keyword must be obmitted.
+
+if statements can't be returned in this.
+
+Creating an object: 
+number => ({ age: number });
+
+---
+
+Object: 
+
+const user = {
+  name: "Max",
+  age: 34
+  greet(){ //method
+    console.log(this.age)
+    console.log("hello world")
+  }
+};
+
+console.log(user);
+
+or 
+
+console.log(user.max);
+
+class is a blueprint that can then be used to create objects later
+
+class User {                //upper case first letter
+  constructor(name, age){   //can do this
+    this.name = name;
+    this.age = age;
+  }
+
+  greet(){
+    console.log("hello world")
+  }
+}
+
+//usage
+const user1 new User("Manual", 35);
+console.log(user1);
+user1.greet();
+
+------
+
+//arrays
+
+const hobbies = ["Sports", "Cooking", "Reading"];
+console.log(hobbies[0])
+
+//arrays can contain a multitude of values including arrays.
+//Utility array methods:
+
+hobbies.push("Working");
+hobbies.findindex can also take functions as inputs.
+
+hobbies.findIndex((item) => {   // will return location if found.
+  return item === 'Sports' ;
+});
+
+can also be written like this: 
+
+hobbies.findIndex((item) => item === 'Sports');
