@@ -27,6 +27,22 @@ const content = [
   ]
 ];
 
+const hobbies = ["Reading", "Thinking", "Coding", "Gaming"];
+console.log (hobbies[1]);
+
+hobbies.push("Working")
+
+const index = hobbies.findIndex((item) => {   // will return location if found.
+  return item === 'Coding' ;
+});
+
+console.log(index);
+
+const editedHobbies = hobbies.map((item) => item + "!");
+console.log(editedHobbies);
+
+
+
 export default function App() {
   const [activeContentIndex, setActiveContentIndex] = useState(0);
 
