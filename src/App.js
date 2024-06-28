@@ -41,6 +41,8 @@ console.log(index);
 const editedHobbies = hobbies.map((item) => item + "!");
 console.log(editedHobbies);
 
+const editedHobbiesObject = hobbies.map((item) => ({text: item}));
+console.log(editedHobbiesObject);
 
 
 export default function App() {
