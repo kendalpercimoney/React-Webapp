@@ -44,6 +44,20 @@ console.log(editedHobbies);
 const editedHobbiesObject = hobbies.map((item) => ({text: item}));
 console.log(editedHobbiesObject);
 
+const [firstName, lastName] = ["Max", "Lucado"];
+
+
+console.log(firstName);
+console.log(lastName);
+
+const{name: userName, age} = { 
+  name: "max",
+  age: 33
+}
+
+console.log(userName);
+console.log(age);
+
 
 export default function App() {
   const [activeContentIndex, setActiveContentIndex] = useState(0);

@@ -267,9 +267,77 @@ Map:
 
 Arrays are special types of objects
 hobbies.map((item) => item + "!"); // will transform each item in the array
+//used for jsx elements
+
+const editedHobbies = hobbies.map((item) => ({text: item})); //creates an object for each item with text
+
+Methods are functions that belong to an object.
 -------
 O(1) - an if statement is an example of this
 Olog(n) - processing halves every cycle
 O(n) - complexity increases at the same rate as processes (searching by comparing items in a list one by one) 
 
 
+------ objects
+
+// Define an object using object literal syntax
+let person = {
+  name: 'John Doe',
+  age: 30,
+  occupation: 'Developer'
+};
+
+// Accessing values
+console.log(person.name);       // Output: John Doe
+console.log(person.age);        // Output: 30
+console.log(person.occupation); // Output: Developer
+
+// Adding a new property
+person.city = 'New York';
+
+// Modifying an existing property
+person.age = 31;
+
+console.log(person);
+
+//methods in objects
+
+let person = {
+  name: 'John Doe',
+  age: 30,
+  occupation: 'Developer',
+  greet: function() {
+    console.log('Hello, my name is ' + this.name);
+  }
+};
+
+// Calling the method
+person.greet(); // Output: Hello, my name is John Doe
+
+----- destructuring arrays
+
+const userNameData = ["Max", "Lucado"];
+const firstName = userNameData[0];
+const lastName = userNameData[1];
+
+// shorter way
+const [firstName, lastName] = ["Max", "Lucado"]; //assigns to variables
+
+console.log(firstName);
+console.log(lastName);
+
+// works for objects too 
+
+const{name, age} = { //have to use defined field names due to not being defined by position.
+  name: "max",
+  age: 33
+}
+
+// or with alias: (custom variable name) 
+const{name: userName, age} = { 
+  name: "max",
+  age: 33
+}
+
+console.log(userName);
+console.log(age);
