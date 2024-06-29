@@ -341,3 +341,57 @@ const{name: userName, age} = {
 
 console.log(userName);
 console.log(age);
+
+Destructuring in Function Parameter Lists might be worth going back to.
+
+----- the spread operator (...)
+merging lists.
+
+const hobbies = ["Sports", "Cooking", "Reading"];
+
+const newHobbies = ["Thinking"];
+
+//instead of using the following which will create two nested arrays
+const mergedHobbies = [hobbies, newHobbies];
+
+//We use the spread operator to combine them in the way we want
+const mergedHobbies = [...hobbies, ...newHobbies];
+
+//You can also use it with objects
+const user = {
+name: "Max" age:
+34
+} ;
+
+const extendedUser = {
+isAdmin: true,
+...user
+};
+
+console.log (extendedUser);
+
+//This will add the properties into this new object
+//as if they were already in the object
+
+----------- for loop
+
+const hobbies = ["Sports", "Cooking"];
+
+for (const hobby of hobbies) {
+console.log(hobby);
+}
+
+//The above is a for loop that creates a new constant for every iteration (item) in the array
+
+-----------  manipulating the DOM
+
+reach out to a loaded website and read/manipulate it?
+a strength of JS
+
+don't do in react as react does it for us
+
+const list = document.querySelector ("ul");
+list.remove();
+
+--------- functions as values to other functions
+
