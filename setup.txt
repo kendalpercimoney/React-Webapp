@@ -432,5 +432,26 @@ greeter (() => console. log ("Hi"));
 
 functions can only be accessed inside function in which it's created.
 
+(scope)
 
 
+---------- references vs primatives
+
+primatives aren't edited 
+
+let userMessage = 'Hello';
+editing this string with = or concat will change the address of the variable
+
+arrays are objects (reference values)
+you can const an object, but you can still edit it with a method
+
+it keeps the address
+
+if you try assign with = it still won't work cause you'll be editing the address
+
+------------ Finished JS recap!
+
+
+
+
+ 
