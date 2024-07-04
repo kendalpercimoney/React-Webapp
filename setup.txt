@@ -432,3 +432,5 @@ greeter (() => console. log ("Hi"));
 
 functions can only be accessed inside function in which it's created.
 
+
+
