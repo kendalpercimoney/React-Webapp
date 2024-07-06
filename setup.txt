@@ -451,6 +451,11 @@ if you try assign with = it still won't work cause you'll be editing the address
 
 ------------ Finished JS recap!
 
+Components: JSX, props, state
+
+
+
+
 
 
 
