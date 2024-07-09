@@ -453,10 +453,16 @@ if you try assign with = it still won't work cause you'll be editing the address
 
 Components: JSX, props, state
 
+All code is together instead of in different files.
 
+JSX eXstension, won't work in browser, needs to be pur together by react.
 
+Component rules: 
+- Must start with an uppercase character.
+- Must return renderable content.
 
+Each should have its own file.
 
+command / in vs code formats document and adds parentheses in right places.
 
-
- 
+You can use components inside components with <Header></Header> or <Header />
