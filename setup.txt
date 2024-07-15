@@ -20,6 +20,7 @@ Installing react, react-dom, and react-scripts with cra-template...
 
 added 1476 packages in 3m
 
+
 258 packages are looking for funding
   run `npm fund` for details
 
