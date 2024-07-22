@@ -20,7 +20,6 @@ Installing react, react-dom, and react-scripts with cra-template...
 
 added 1476 packages in 3m
 
-
 258 packages are looking for funding
   run `npm fund` for details
 
@@ -456,7 +455,7 @@ Components: JSX, props, state
 
 All code is together instead of in different files.
 
-JSX eXstension, won't work in browser, needs to be pur together by react.
+JSX exstension, won't work in browser, needs to be pur together by react.
 
 Component rules: 
 - Must start with an uppercase character.
@@ -466,7 +465,7 @@ Each should have its own file.
 
 command / in vs code formats document and adds parentheses in right places.
 
-You can use components inside components with <Header></Header> or <Header />
+---- You can use components inside components with <Header></Header> or <Header /> ----
 
 Component example: 
 
@@ -484,3 +483,8 @@ function Header() {
 
 Usage: 
 Header();
+
+The DOM is the elements that show up on the screen. The code that react converts everything to dynamically. 
+
+Built in components must have a lowercase letter, it's how react tells the difference. 
+
