@@ -490,8 +490,3 @@ The DOM is the elements that show up on the screen. The code that react converts
 Built in components must have a lowercase letter, it's how react tells the difference. 
 
 
-
-
-//existential crisis
-
-
